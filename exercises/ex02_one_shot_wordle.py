@@ -2,7 +2,7 @@
 
 __author__ = "703707593"
 
-six_letter_guess: str =  input("What is your six letter guess?")
+six_letter_guess: str =  input("What is your 6-letter guess?")
 
 secret: str = "python"
 
@@ -19,7 +19,7 @@ YELLOW_BOX: str = "\U0001F7E8"
 
 
 while len(six_letter_guess) != len(secret):
-    six_letter_guess = input("That was not 6 letters! Try agin")
+    six_letter_guess = input("That was not 6 letters! Try again:")
    
 
 while idx < len(secret):
